@@ -24,22 +24,26 @@
     <style type="text/css">
         /*spoiler*/
         dl.codebox {
-        background-color: #6CAF83;
-        border: 2px solid #0f0f0f;
-        padding:5px;
+            background-color: #6CAF83;
+            border: 2px solid #0f0f0f;
+            padding:5px;
         }
         
         
         dl.codebox dt {
-        display:block;
-        font-size:10px;
-        font-weight:700;
-        color:#100213;
-        text-align: center;
-        margin-bottom:3px;
-        text-transform:uppercase;
-        font-family:Calibri;
-        border-bottom: 2px dotted #0f0f0f;
+            display:block;
+            font-size:10px;
+            font-weight:700;
+            color:#100213;
+            text-align: center;
+            margin-bottom:3px;
+            text-transform:uppercase;
+            font-family:Calibri;
+            border-bottom: 2px dotted #0f0f0f;
+        }
+
+        .spoiler {
+            width: 400px;
         }
     </style>
 
@@ -87,7 +91,8 @@
                 </li>
                 <li>
                     Докажите, что $r = \frac{a+b-c}{2}$
-                    <div width="400px">
+                    
+                    <div class="spoiler">
                         <dl class="codebox" style="cursor: pointer;" onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');">
                             <dt>Подсказка:</dt>
                             <dd>
@@ -98,12 +103,36 @@
                             </dd>
                         </dl>
                     </div>
+
                 </li>
                 <li>
-                    Докажите, что $AI^2 = HI_A^2 + HI_B^2$ (вспомните результат задачи 2.3).
+                    Докажите, что $AI^2 = HI_A^2 + HI_B^2$.
+
+                    <div class="spoiler">
+                        <dl class="codebox" style="cursor: pointer;" onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');">
+                            <dt>Подсказка:</dt>
+                            <dd>
+                                <div style="display:none;">
+                                    <br /> вспомните результат задачи 2.3.
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+
+
                 </li>
                 <li>
-                    Докажите, что $AI = I_AI_B$ (используйте предыдущую задачу и задачу 1.1).
+                    Докажите, что $AI = I_AI_B$.
+                    <div class="spoiler">
+                        <dl class="codebox" style="cursor: pointer;" onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');">
+                            <dt>Подсказка:</dt>
+                            <dd>
+                                <div style="display:none;">
+                                    <br /> используйте предыдущую задачу и задачу 1.1.
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
                 </li>
             </ol>
         </li>
