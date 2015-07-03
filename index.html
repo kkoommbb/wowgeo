@@ -20,6 +20,29 @@
 
 <!--    <script type="text/javascript" src="https://www.google.com/jsapi"></script> -->
 
+   
+    <style type="text/css">
+        /*spoiler*/
+        dl.codebox {
+        background-color: #6CAF83;
+        border: 2px solid #0f0f0f;
+        padding:5px;
+        }
+        
+        
+        dl.codebox dt {
+        display:block;
+        font-size:10px;
+        font-weight:700;
+        color:#100213;
+        text-align: center;
+        margin-bottom:3px;
+        text-transform:uppercase;
+        font-family:Calibri;
+        border-bottom: 2px dotted #0f0f0f;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -94,7 +117,7 @@
 
                 Результат последней задачи можно сформулировать очень красиво:
                 <blockquote>
-                    Прямая $I_AI_B$ отсекает от треугольника $ABC$ равнобедренный прямоугольный треугольник.
+                    <i>Прямая $I_AI_B$ отсекает от треугольника $ABC$ равнобедренный прямоугольный треугольник.</i>
                 </blockquote>
             </ol>
         </li>
@@ -106,6 +129,15 @@
             </ol>
         </li>
     </ol>
+
+<dl class="codebox" style="cursor: pointer;" onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');">
+<dt>Spoiler:</dt><dd><div style="display:none;"><br />lo que va entre el spoiler</div></dd></dl>
+
+<dl class="codebox" style="cursor: pointer;" onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');">
+<dt>Spoiler:</dt><dd><div style="display:none;"><br />lo que va entre el spoiler</div></dd></dl>
+
+<dl class="codebox" style="cursor: pointer;" onclick="this.getElementsByTagName('div')[0].style.display=((this.getElementsByTagName('div')[0].style.display=='none')?'':'none');">
+<dt>Spoiler:</dt><dd><div style="display:none;"><br />lo que va entre el spoiler</div></dd></dl>
 
 </div>
     <script>
